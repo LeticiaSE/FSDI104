@@ -14,15 +14,21 @@ months[3]="March";
 
 //var numbers = [7,2,4,11,5];
 
+
+
 /**Exercise*/
+
 //sun the numbers and save it in a var
 
 var numbers=[9,7,5,2]; 
 var totalNumbers;
+var average;
 
 //calculate the average
 
-totalNumbers= numbers [0]+ numbers [1]+ numbers [2] +numbers [3];
+totalNumbers= numbers [0]+ numbers [1]+ numbers [2] +numbers [3] ;
+
+average=totalNumbers/numbers.length;
 
 //display alert();
-alert("Average: " + totalNumbers);
+alert("totalNumbers: " + totalNumbers + "    Average: " + average);
