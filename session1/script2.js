@@ -32,3 +32,4 @@ average=totalNumbers/numbers.length;
 
 //display alert();
 alert("totalNumbers: " + totalNumbers + "    Average: " + average);
+console.table(numbers);
