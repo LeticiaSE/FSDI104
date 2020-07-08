@@ -1,0 +1,91 @@
+html{
+    font-size: 62.5%; /* reset the HTML 1rem=10px*/
+}
+
+h1{
+    font-size:3.8rem;
+    color:#05A61D;
+}
+
+h2{
+    font-size:4rem;
+    color:#05A61D;
+}
+
+p{
+    font-size: 2rem;
+    text-align: center;
+    color: #310252;
+    justify-content: space-evenly;
+}
+
+.vs{
+    font-size: 8rem;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img{
+    max-width: 100%;
+    max-height: 80%;
+}
+.header{
+    background-image: url(/img/ban4.jpg);
+    padding: 11.5rem;
+}
+
+.center{
+    text-align: center;
+}
+
+.garden{
+    display:grid;
+    grid-template-columns: 46% 8% 46%;
+
+    margin-bottom: 5rem;
+
+
+}
+
+.imgDetails{
+    width: 35rem;
+    height: 35rem;
+    border: 1px solid #05A61D;
+    border-radius: 1rem;
+    justify-content: space-evenly;
+    padding: 6rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn{
+    display: block;
+    width: 20rem;
+    background-color: #3B0273;
+    font-weight: 400;
+    font-size: 2.5rem;
+    text-decoration: none;
+    padding: 1rem;
+    text-align: center;
+    border: 1px solid #310252;
+    border-radius: 2rem;
+
+    color: wheat;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+footer{
+    background-color: #5ABF86;
+    width: 100%;
+    height: 8rem;
+}
+
+footer p{
+    font-size: 2rem;
+    color: white;
+    padding: 3rem;
+}
